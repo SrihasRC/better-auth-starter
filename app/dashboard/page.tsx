@@ -1,9 +1,9 @@
+import Logout from "@/components/logout"
+
 const page = () => {
   return (
-    <div>
-        <h1 className="text-2xl font-bold">Dashboard</h1>
-        <p className="text-gray-500">This is the dashboard page.</p>
-        <p className="text-gray-500">You can access this page because you are authenticated.</p>
+    <div className="flex min-h-svh flex-col items-center justify-center gap-6 p-6 md:p-10">
+        <Logout />
     </div>
   )
 }
