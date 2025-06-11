@@ -8,7 +8,7 @@ const Logout = () => {
   const handleLogout = async () => {
     try {
       await authClient.signOut();
-      window.location.href = "/login";
+      window.location.href = "/";
     } catch (error) {
       console.error("Logout failed:", error);
     }
