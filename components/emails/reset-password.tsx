@@ -16,6 +16,7 @@ import {
 interface ForgotPasswordEmailProps {
   userEmail: string;
   resetUrl: string;
+  username: string;
 }
 
 const ForgotPasswordEmail = (props: ForgotPasswordEmailProps) => {
